@@ -1,0 +1,149 @@
+.sidebar{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: roboto ,sans-serif;
+
+}
+.home-section{
+    height: 47px;
+    cursor: pointer;
+    padding-left:14px;
+    padding-top: 18px;
+    width: 47px;
+    padding-bottom: 12px;
+}
+.home-section:hover{
+    background-color: rgb(235, 235, 235);
+}
+.home-logo{
+    width: 27px;
+
+}
+.home-naming{
+    font-size: 12px;
+}
+
+
+
+.explore-section{
+    height: 47px;
+    padding-top: 18px;
+    cursor: pointer;
+    width: 65px;
+    padding-bottom: 12px;
+
+}
+.explore-section:hover{
+    background-color: rgb(235, 235, 235);
+}
+.explore-logo{
+    width: 27px;
+    padding-left: 16px;
+
+}
+.explore-naming{
+    font-size: 12px;
+    margin-right: 50px;
+    padding-left: 13px;
+}
+
+
+
+.subscription-section{
+    height: 47px;
+    padding-top: 18px;
+    cursor: pointer;
+    width: 65px;
+    padding-bottom: 12px;  
+
+}
+.subscription-section:hover{
+    background-color: rgb(235, 235, 235);
+}
+.subscription-logo{
+    width: 27px;
+    padding-left: 16px;
+
+}
+.subscription-naming{
+    font-size: 11px;
+    padding-left: 2px;
+}
+
+
+
+
+.originals-section{
+    height: 47px;
+    padding-top: 18px;
+    cursor: pointer;
+    width: 65px;
+    padding-bottom: 12px;
+    
+
+
+}
+.originals-section:hover{
+    background-color: rgb(235, 235, 235);
+}
+.originals-logo{
+    width: 27px;
+    padding-left: 16px;
+
+}
+.originals-naming{
+    font-size: 12px;
+    padding-left: 9px;
+    
+}
+
+
+
+.youtube-music-section{
+    height: 56px;
+    width: 65px;
+    padding-top: 18px;
+    cursor: pointer;
+
+}
+.youtube-music-section:hover{
+    background-color: rgb(235, 235, 235);
+}
+.youtube-music-logo{
+    width: 27px;
+    padding-left: 16px;
+    margin-bottom:0px ;
+    margin-top: 0;
+
+}
+.youtube-music-naming{
+    font-size: 9px;
+}
+
+
+.library-section{
+    height: 47px;
+    width: 65px;
+    padding-top: 18px;
+    cursor: pointer;
+
+}
+.library-section:hover{
+    background-color: rgb(235, 235, 235);
+}
+.library-logo{
+    width: 27px;
+    padding-left: 16px;
+
+}
+.library-naming{
+    font-size: 12px;
+    padding-left: 13px;
+}

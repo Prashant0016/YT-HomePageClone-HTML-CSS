@@ -1,0 +1,107 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    border-bottom-width: 1px ;
+    border-bottom-style:solid ;
+    border-bottom-color:rgb(194, 190, 190) ;
+    z-index: 100;
+    background-color: white;
+}
+
+.left-section{
+    display: flex;
+}
+.hamburger-logo{
+    width: 25px;
+    padding-left: 15px;
+}
+.youtube-logo{
+    width: 89px;
+    padding-left: 25px;
+}
+
+
+.mid-section{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 90px;
+
+}
+.search-bar{
+    height: 33px;
+    width: 340px;
+    
+}
+.search-logo{
+    width: 20px;
+    height: 23px;
+    padding: 4px 9px 4px 9px;
+    
+}
+.search-logo-button{
+    height: 38px;
+    background-color: rgb(252, 246, 246);
+    border-color: rgb(228, 225, 225) ;
+    cursor: pointer;
+}
+.search-bar::placeholder{
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.voice-logo{
+    width: 24px;
+}
+.voice-logo-button{
+    height: 39px;
+    width: 38px;
+    border-radius: 50%;
+    margin-left: 6px;
+    border:none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    width: 225px;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.vid-upload-logo{
+    width: 28px;
+}
+.yt-apps-logo{
+    width: 24px;   
+}
+.notify-container{
+    position: relative;
+
+}
+.notify-logo{
+    width: 24px;   
+    
+}
+.notify-no{
+    position: absolute;
+    background-color: rgb(200,0,0);
+    border-radius: 50%;
+    width: 7px;
+    padding:  2px 5px 2px 5px;
+    top: -8px;
+    right: -4px;
+    color: white;
+
+}
+.channel-logo{
+    width: 24px;
+}
